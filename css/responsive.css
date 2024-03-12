@@ -1,0 +1,241 @@
+@media (max-width: 1300px) {}
+
+@media (max-width: 1120px) {}
+
+@media (max-width: 992px) {
+
+  .slider_section {
+    min-height: auto;
+  }
+
+  .slider_section .detail-box {
+    padding: 90px 0 75px 0;
+  }
+
+  .info_main_row>div:nth-child(1) {
+    margin-bottom: 25px;
+  }
+
+  .info_main_row>div:nth-child(2) {
+    margin-bottom: 25px;
+  }
+}
+
+@media (max-width: 800px) {}
+
+@media (max-width: 768px) {
+  .slider_section .detail-box h1 {
+    font-size: 2.5rem;
+  }
+
+  .slider_section .slider_bg_box img {
+    object-position: 20% center;
+  }
+
+  .about_section .img-box {
+    margin-bottom: 45px;
+
+  }
+
+  .contact_section .form_container {
+    margin-bottom: 45px;
+  }
+
+  .client_section .box {
+    flex-direction: column;
+    text-align: center;
+    margin: 35px 15px;
+  }
+
+  .client_section .box .detail-box {
+    align-items: center;
+  }
+
+  .client_section .box .img-box {
+    margin-right: 0;
+    margin-bottom: 25px;
+  }
+
+  .info_main_row>div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+  }
+
+  .info_main_row>div:not(:nth-last-child(1)) {
+    margin-bottom: 25px;
+  }
+
+  .info_section .social_box {
+    justify-content: center;
+    margin-top: 25px;
+  }
+
+  .info_section .info_contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+}
+
+@media (max-width: 576px) {
+  .info_section .info_insta .insta_box {
+    flex-direction: column;
+  }
+
+  .slider_section .detail-box h1 {
+    font-size: 26px;
+  }
+
+  .slider_section .detail-box p {
+    font-size: 13px;
+    width: 65%;
+    /* word-break: break-word; */
+    word-break: break-word;
+  }
+
+  .about_section .detail-box p {
+    font-size: 14px;
+
+  }
+
+  .navbar-brand span {
+    font-size: 24px;
+  }
+
+  .jewellogo {
+    width:45px;
+  }
+
+  .layout_padding {
+    padding:30px 0px;
+  }
+
+  .shop_section .heading_container {
+    margin-bottom: 20px;
+    /* text-decoration: underline; */
+    padding-bottom: 1;
+  background-color: #ff6f26b0;
+    border-radius: 10px;
+   padding: 10px;
+  }
+
+  .heading_container h2 {
+    text-transform: initial;
+  }
+
+  .slider_section .detail-box .slider-link {
+    padding: 6px 20px;
+  
+    border-radius: 10px;
+  }
+
+  .info_section .info_insta .insta_box .img-box {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .shop_section .box {
+    background-color: #000000;
+    position: relative;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 21px;
+  }
+
+  .shop_section .box .detail-box {
+    color: white;
+  }
+
+  .shop_section .btn-box a {
+    padding: 8px 24px;
+    background-color: #ff6f26;
+    border-radius: 10px;
+   
+  }
+
+  .offer_section .box .detail-box a {
+    padding: 8px 24px;
+    border-radius: 10px;
+  }
+
+  .about_section .detail-box a {
+    background-color: #ff6f26;
+    border-radius: 10px;
+  }
+
+  .offer_section .box .detail-box a:hover {
+    background-color: #ff6f26;
+  }
+
+  .offer_section .box img {
+    border-radius: 10px;
+  }
+
+  .offer_section .box .detail-box {
+    border-radius: 10px;
+  }
+
+  .blog_section .heading_container {
+    /* margin-bottom: 20px; */
+    /* text-decoration: underline; */
+    padding-bottom: 1;
+    background-color: #ff6f26b0;
+    border-radius: 10px;
+   padding: 10px;
+  }
+ 
+  .blog_section .box .img-box img {
+    border-radius: 10px 10px 0px 0px;
+  }
+  .blog_section .box .detail-box a {
+    border-radius: 10px;
+  }
+
+  .client_section .carousel-control-prev, .client_section .carousel-control-next {
+    background-color: #ff6f26;
+  }
+
+  .info_section .info_form form button {
+    background-color: #ff6f26;
+  }
+
+  .blog_section .box .detail-box p {
+    font-size: 12px;
+  }
+
+  .client_section .heading_container
+ {
+  
+    background-color: #ff6f26b0;
+    border-radius: 10px;
+   padding: 10px;
+ }
+}
+
+@media (max-width: 480px) {
+  .about_section .img-box::before {
+    width: 150px;
+    height: 150px;
+  }
+
+  .slider_section .slider_bg_box img {
+    object-position: 48% center;
+  }
+}
+
+@media (max-width: 420px) {}
+
+@media (max-width: 376px) {
+  .slider_section .detail-box h1 {
+    font-size: 2rem;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1170px;
+  }
+}
